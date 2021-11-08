@@ -1,7 +1,8 @@
 *** Settings ***
 
 Variables         ../dataInputs/CongfigUIdata.yaml 
-
+Resource          locators
+    
 *** Variables ***
 
 &{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
