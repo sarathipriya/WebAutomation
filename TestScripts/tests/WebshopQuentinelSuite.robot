@@ -22,10 +22,11 @@ Loginqentinelqi
     [Documentation]    TESTCASE TO VERIFY THE LOGIN FUNCTIONALITY OF QENTINELWEBSHOP
     #    Test steps
     log               ${​​​​​QentinelURL} 
-    GoTo              ${​​​​​QentinelURL} 
-    VerifyText        Find your spirit animal​​​​​ 
+    GoTo              ${​​​​​QentinelURL}
+    Sleep             5s 
+    VerifyText        Find your spirit animal​​​​​                         
     Login_Qentinel    ${​​​​​QentinelURL}    ${​​​​​QentinelText}
- so
+
 Verify Tshirt Price
     [Documentation]    TESTCASE TO VERIFY THE PRICE OF THE SELECTED TSHIRT IS $9.00
     Login_Qentinel    ${Qentinelqi.URL}    ${Qentinelqi.Text}
