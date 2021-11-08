@@ -1,9 +1,12 @@
-[20:13] Sarathipriya R.
 *** Settings ***
 
-Variables         ../DataInputs/CongifUIdata.yaml *** Variables ***
+Variables         ../DataInputs/CongfigUIdata.yaml 
 
-&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] *** Keywords ***
+*** Variables ***
+
+&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
+
+*** Keywords ***
 
 Login_Qentinel
 
