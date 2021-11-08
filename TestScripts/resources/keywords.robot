@@ -6,7 +6,7 @@ Resource          ../resources/locators.robot
 Variables         ../resources/locators.robot
 *** Variables ***
 
-&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
+#&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
 
 *** Keywords ***
 
