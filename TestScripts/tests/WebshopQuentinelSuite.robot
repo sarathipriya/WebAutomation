@@ -23,7 +23,6 @@ Loginqentinelqi
     #    Test steps
     log               ${​​​​​QentinelURL} 
     GoTo              ${​​​​​QentinelURL}
-     
     VerifyElement     ${​​​​​XpathQentinel.ele}     ​​​​​                         
     Login_Qentinel    ${​​​​​QentinelURL}    Find your spirit animal
 
