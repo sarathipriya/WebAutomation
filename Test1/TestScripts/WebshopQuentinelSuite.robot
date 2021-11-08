@@ -4,7 +4,7 @@ Test Setup        Open Browser    about:blank    ${BROWSER}
 Test Teardown     Close All Browsers    # The Settings section is where you define test suite level configuration.    #    Test Setup and Teardown are actions that happen before and after a test case run.
 Library           QWeb
 Library           Screenshot
-Resource          ../Resources/CongifUIKeywords.txt
+Resource          ../Resources/UIKeywords.txt
  
 *** Variables ***
 # You could also use "Firefox" (without quotes) below.
