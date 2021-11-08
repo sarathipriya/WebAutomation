@@ -10,13 +10,13 @@ Variables         ../dataInputs/CongfigUIdata.yaml 
 
 Login_Qentinel
 
-    [Arguments]    ${​​​​​QentinelURL}​​​​​    ${​​​​​​​​​​Text}​​​​​
+    [Arguments]    ${​​​​​QentinelURL}​​​​​    ${​​​​​QentinelText}​​​​​
 
     [Documentation]    User keyword to login to a URL and verify the text given by user
 
-    GoTo    ${​​​​​QentinelURL}​​​​​
+    GoTo               ${​​​​​QentinelURL}​​​​​
 
-    VerifyText    ${​​​​​Text}​​​​​ 
+    VerifyText         ${​​​​​QentinelText}​​​​​ 
 
 Verify Page Text
 
