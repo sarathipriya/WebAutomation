@@ -2,6 +2,7 @@
 
 Variables         ../dataInputs/CongfigUIdata.yaml 
 Resource          locators
+Resource          ../resources/locators.robot
     
 *** Variables ***
 
