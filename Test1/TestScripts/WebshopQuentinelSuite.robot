@@ -5,7 +5,7 @@ Test Teardown     Close All Browsers    # The Settings section is where you defi
 Library           QWeb
 Library           Screenshot
 #Resource          ../Resources/UIKeywords.robot
- Resource          UIKeywords
+Resource          UIKeywords.robot
 *** Variables ***
 # You could also use "Firefox" (without quotes) below.
 ${BROWSER}        Chrome
