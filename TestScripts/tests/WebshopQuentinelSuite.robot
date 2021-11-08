@@ -10,7 +10,7 @@ Resource          ../resources/keywords.robot
 # You could also use "Firefox" (without quotes) below.
 ${BROWSER}        Chrome
 ${​​​​​QentinelURL}            https://qentinelqi.github.io/shop
-${​​​​​QentinelText}            Find your spirit animal
+#${​​​​​QentinelText}            Find your spirit animal
 
 &{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
 
@@ -23,7 +23,7 @@ Loginqentinelqi
     #    Test steps
     log               ${​​​​​QentinelURL} 
     GoTo              ${​​​​​QentinelURL} 
-    VerifyText        ${​​​​​QentinelText}​​​​​ 
+    VerifyText        Find your spirit animal​​​​​ 
     Login_Qentinel    ${​​​​​QentinelURL}    ${​​​​​QentinelText}
  so
 Verify Tshirt Price
