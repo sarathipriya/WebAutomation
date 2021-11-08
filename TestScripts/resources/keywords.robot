@@ -1,6 +1,6 @@
 *** Settings ***
 
-Variables         ../DataInputs/CongfigUIdata.yaml 
+Variables         ../dataInputs/CongfigUIdata.yaml 
 
 *** Variables ***
 
