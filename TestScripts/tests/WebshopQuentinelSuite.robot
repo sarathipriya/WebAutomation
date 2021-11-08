@@ -23,7 +23,7 @@ Loginqentinelqi
     #    Test steps
     log               ${​​​​​QentinelURL} 
     GoTo              ${​​​​​QentinelURL}
-    VerifyText        &{​​​​​QentinelXpath.element1}​​​​​                         
+    VerifyElement     ${​​​​​QentinelXpath.element1}​​​​​                         
     Login_Qentinel    ${​​​​​QentinelURL}    ${​​​​​QentinelText}
 
 Verify Tshirt Price
