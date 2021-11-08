@@ -14,7 +14,7 @@ Login_Qentinel
    # [Arguments]               ${​​​​​QentinelURL}​​​​    ${}​​​​​
 
     [Documentation]    User keyword to login to a URL and verify the text given by user
-
+    log                ${​​​​​QentinelURL}​​​​​   
     GoTo               ${​​​​​QentinelURL}​​​​​
 
     VerifyText         ${​​​​​QentinelText}​​​​​ 
