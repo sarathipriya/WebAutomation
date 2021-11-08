@@ -3,7 +3,7 @@
 Variables         ../dataInputs/CongfigUIdata.yaml 
 Resource          locators
 Resource          ../resources/locators.robot
-    
+Variables         ../resources/locators.robot
 *** Variables ***
 
 &{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
