@@ -9,7 +9,7 @@ Resource          ../resources/keywords.robot
 *** Variables ***
 # You could also use "Firefox" (without quotes) below.
 ${BROWSER}        Chrome
-${​​​​​QentinelURL}            https://qentinelqi.github.io/shop/
+${​​​​​QentinelURL}            https://qentinelqi.github.io/shop
 ${​​​​​QentinelText}            Find your spirit animal
 
 &{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
