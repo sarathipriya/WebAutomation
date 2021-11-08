@@ -12,7 +12,7 @@ ${BROWSER}        Chrome
 ${​​​​​QentinelURL}            https://qentinelqi.github.io/shop
 #${​​​​​QentinelText}            Find your spirit animal
 
-&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
+&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"]                      element1=xpath=//h2[text()="Find your spirit animal"]                     
 
  
 *** Test Cases ***
@@ -23,8 +23,7 @@ Loginqentinelqi
     #    Test steps
     log               ${​​​​​QentinelURL} 
     GoTo              ${​​​​​QentinelURL}
-    Sleep             5s 
-    VerifyText        Find your spirit animal​​​​​                         
+    VerifyText        &{​​​​​QentinelXpath.element1}​​​​​                         
     Login_Qentinel    ${​​​​​QentinelURL}    ${​​​​​QentinelText}
 
 Verify Tshirt Price
