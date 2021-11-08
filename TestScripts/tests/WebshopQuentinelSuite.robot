@@ -5,12 +5,12 @@ Test Teardown     Close All Browsers    # The Settings section is where you defi
 Library           QWeb
 Library           Screenshot
 Resource          ../resources/keywords.robot
+Resource          ../resources/locators.robot
 
 *** Variables ***
 # You could also use "Firefox" (without quotes) below.
 ${BROWSER}        Chrome
-${​​​​​QentinelURL}            https://qentinelqi.github.io/shop
-&{​​​​​QentinelXpath}           ele=xpath=//h2[text()="Find your spirit animal"]
+${​​​​​QentinelURL}            https://qentinelqi.github.io/shop         
 #&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"]     ele=xpath=//h2[text()="Find your spirit animal"]                     
 
  
