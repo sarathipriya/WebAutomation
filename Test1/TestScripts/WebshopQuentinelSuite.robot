@@ -8,7 +8,7 @@ Resource          ../Resources/UIKeywords.txt
  
 *** Variables ***
 # You could also use "Firefox" (without quotes) below.
-${BROWSER}        ${Browser.Chrome}
+${BROWSER}        Chrome
  
 *** Test Cases ***
 Login qentinelqi
