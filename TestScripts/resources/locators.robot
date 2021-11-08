@@ -4,4 +4,4 @@ Variables         ../dataInputs/CongfigUIdata.yaml 
 
 *** Variables ***
 
-&{​​​​​UIXpath}​​​​​    QentinelqiURL=xpath=//span[text()="$9.00"] 
+&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
