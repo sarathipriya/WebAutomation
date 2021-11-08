@@ -9,9 +9,15 @@ Resource          ../resources/keywords.robot
 *** Variables ***
 # You could also use "Firefox" (without quotes) below.
 ${BROWSER}        Chrome
+&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
+${​​​​​QentinelURL}            https://qentinelqi.github.io/shop/
+${​​​​​QentinelText}            Find your spirit animal
+
  
 *** Test Cases ***
-Login qentinelqi
+
+Loginqentinelqi
+
     [Documentation]    TESTCASE TO VERIFY THE LOGIN FUNCTIONALITY OF QENTINELWEBSHOP
     #    Test steps
     Login_Qentinel    ${Qentinelqi.URL}    ${Qentinelqi.Text}
