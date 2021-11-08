@@ -23,7 +23,7 @@ Loginqentinelqi
     log               ${​​​​​QentinelURL} 
     GoTo              ${​​​​​QentinelURL}
     VerifyElement     ${​​​​​QentinelXpath.ele}​​​​​                         
-    Login_Qentinel    ${​​​​​QentinelURL}    ${​​​​​QentinelText}
+    Login_Qentinel    ${​​​​​QentinelURL}    Find your spirit animal
 
 Verify Tshirt Price
     [Documentation]    TESTCASE TO VERIFY THE PRICE OF THE SELECTED TSHIRT IS $9.00
