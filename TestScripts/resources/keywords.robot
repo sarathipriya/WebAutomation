@@ -16,11 +16,13 @@ Login_Qentinel
 
     GoTo    ${​​​​​QentinelURL}​​​​​
 
-    VerifyText    ${​​​​​Text}​​​​​ Verify Page Text
+    VerifyText    ${​​​​​Text}​​​​​ 
+
+Verify Page Text
 
     [Arguments]    ${​​​​​name}​​​​​    ${​​​​​text}​​​​​
 
-    [Documentation]    User keyword to \ verify the selected item and price is viewing based on user input
+    [Documentation]    User keyword to verify the selected item and price is viewing based on user input
 
     ClickText    ${​​​​​name}​​​​​
 
