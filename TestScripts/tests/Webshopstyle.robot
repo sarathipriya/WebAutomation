@@ -23,11 +23,11 @@ TshirtCSSStyle
     VerifyElement       ${UIpath.GreenImg}
     ClickElement        ${UIpath.CreamBG} 
     VerifyElement       ${UIpath.CreamImg} 
-TshirtCSSStyle-TV 
-  [Documentation]     REPLACE_THIS_WITH_DOCUMENTATION_RELEVANT_TO_YOUR_TEST_CASE
-    QentinelLOGIN                     ${QentinelqiURL}         ${QentinelqiText}
-    Verify Page Text    Bumble the Elephant                    Bumble the Elephant
-    ClickElement        ${UIpath.GreenBg} 
-    VerifyElement       ${UIpath.CreamImg} 
-    ClickElement        ${UIpath.CreamBG} 
-    VerifyElement       ${UIpath.CreamImg} 
+#TshirtCSSStyle-TV 
+# [Documentation]     REPLACE_THIS_WITH_DOCUMENTATION_RELEVANT_TO_YOUR_TEST_CASE
+#   QentinelLOGIN                     ${QentinelqiURL}         ${QentinelqiText}
+#    Verify Page Text    Bumble the Elephant                    Bumble the Elephant
+#    ClickElement        ${UIpath.GreenBg} 
+#    VerifyElement       ${UIpath.CreamImg} 
+#    ClickElement        ${UIpath.CreamBG} 
+#    VerifyElement       ${UIpath.CreamImg}
