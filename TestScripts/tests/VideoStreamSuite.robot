@@ -24,10 +24,10 @@ Login copado
      ClickText        Starter suite
      ${all_options}=                      GetDropDownValues                    ${CopadoXpath.drop}
      log                 ${all_options}       
-     DropDown         ${CopadoXpath.drop}     All     anchor="1"
-     DropDown         ${CopadoXpath.drop1}    Yes     anchor="1"
-     ClickElement     ${CopadoXpath.drop2}
-     VerifySelectedOption                 ${CopadoXpath.drop}         All
-     VerifySelectedOption                 ${CopadoXpath.drop1}        Yes                
+     DropDown         ${CopadoXpath.selectrecord}     All     anchor="1"
+     DropDown         ${CopadoXpath.selectstream}    Yes     anchor="1"
+     ClickElement     ${CopadoXpath.Clickrun}
+     VerifySelectedOption                 ${CopadoXpath.selectrecord}         All
+     VerifySelectedOption                 ${CopadoXpath.selectstream}        Yes                
      SwitchWindow                        2  
      Take Screenshot                      name="screenshot"                   
