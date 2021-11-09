@@ -2,7 +2,7 @@
 Library           QWeb
 Variables         ../dataInputs/CongfigUIdata.yaml 
 #Resource          locators
-Resource          ../resources/locators.robot
+#Resource          ../resources/locators.robot
 #Variables         ../resources/locators.robot
 *** Variables ***
 
