@@ -25,7 +25,7 @@ Loginqentinelqi
     #    Test steps   ​​​​​    
     #GoTo                ${QentinelURL}
     #VerifyText          ${QentinelText}      
-    LoginQentinel     ${QentinelURL}      ${Xpath​​​​​Qentinel.ele}   
+    LoginQentinel     ${QentinelURL}      ${QentinelText}   
     #LoginQentinel    ${QentinelURL}                        
 
 Verify Tshirt Price
