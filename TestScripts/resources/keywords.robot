@@ -21,4 +21,18 @@ Add to Cart
 Verify Cart Value
     [Documentation]    User keyword to verify the cart value 
     [Arguments]        ${XpathValue}  
-    VerifyElement      ${XpathValue}      
+    VerifyElement      ${XpathValue}  
+LoginDetails
+    [Documentation]    User keyword to get login details                           
+    [Arguments]       ${URL}                         ${username}                    ${passwrod}
+    GoTo              ${URL}  
+    ClickElement     ${username}
+    TypeText         ${username}                        ${passwrod}
+    ClickElement     ${passwrod} 
+    TypeSecret       ${passwrod}                    ${passwrod} 
+logout
+     [Documentation]    User keyword to verify logout                           
+    [Arguments]        ${username}                    ${passwrod}
+     ClickElement     ${CopadoXpath.Profile}
+     ClickElement     ${CopadoXpath.Logout} 
+     VerifyText       LOGIN
