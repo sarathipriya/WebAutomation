@@ -23,7 +23,7 @@ Loginqentinelqi
     [Documentation]    TESTCASE TO VERIFY THE LOGIN FUNCTIONALITY OF QENTINELWEBSHOP
     #    Test steps   ​​​​​    
     GoTo                ${QentinelURL}
-    VerifyText          ${${Qentineltext}                     
+    VerifyText          ${${QentinelText}                     
     #Login_Qentinel    ${QentinelURL}                        ${QentinelText}
 
 Verify Tshirt Price
