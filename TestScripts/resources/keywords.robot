@@ -1,29 +1,24 @@
 *** Settings ***
-Library           QWeb
-Variables         ../dataInputs/CongfigUIdata.yaml 
-#Resource          locators
-#Resource          ../resources/locators.robot
-#Variables         ../resources/locators.robot
-*** Variables ***
-
-#&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"] 
-
+Documentation           User Keywords for web features. It enables code reusability
+Library                 QWeb
 *** Keywords ***
-
-LoginQentinel
-    [Arguments]               ${URL}    ${Text}
-    [Documentation]    User keyword to login to a URL and verify the text given by user
-   # log               ${arg1}
-    GoTo              ${URL}​​​​​
-    VerifyText        ${Text}​​​​​
+QentinelLOGIN 
+    [Documentation]                 User keyword to login to a URL and verify the text given by user
+    [Arguments]                     ${URL}                      ${Text}
+    GoTo                        ${URL}
+    VerifyText                 ${Text}
 
 Verify Page Text
-
-    [Arguments]    ${​​​​​name}​​​​​    ${​​​​​text}​​​​​
-
-    [Documentation]    User keyword to verify the selected item and price is viewing based on user input
-
-    ClickText    ${​​​​​name}​​​​​
-
-    VerifyText    ${​​​​​text}​​​​​
-
+    [Documentation]    User keyword to verify the selected item and price is viewing based on user input
+    [Arguments]        ${name}                        ${text}
+    ClickText          ${name}
+    VerifyText         ${text}
+Add to Cart
+    [Documentation]    User keyword to add the items in cart
+    [Arguments]        ${Item}                        ${Cart}
+    ClickText          ${Item}
+    VerifyText         ${Cart}
+Verify Cart Value
+    [Documentation]    User keyword to verify the cart value 
+    [Arguments]        ${XpathValue}  
+    VerifyElement      ${XpathValue}      
