@@ -20,5 +20,5 @@ ${QentinelqiText}               Find your spirit animal
     Verify Page Text    Bumble the Elephant                    Bumble the Elephant
     ClickElement        ${QentinelXpath.GreenBg} 
     VerifyElement       ${QentinelXpath.Greenimg}
-    ClickElement        ${QentinelXpath.user3} 
-    VerifyElement       ${QentinelXpath.user4} 
+    ClickElement        ${QentinelXpath.CreamBG} 
+    VerifyElement       ${QentinelXpath.CreamImg} 
