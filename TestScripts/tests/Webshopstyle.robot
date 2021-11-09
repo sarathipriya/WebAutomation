@@ -19,10 +19,10 @@ TshirtCSSStyle
   [Documentation]     REPLACE_THIS_WITH_DOCUMENTATION_RELEVANT_TO_YOUR_TEST_CASE
     QentinelLOGIN                     ${QentinelqiURL}         ${QentinelqiText}
     Verify Page Text    Bumble the Elephant                    Bumble the Elephant
-    ClickElement        ${QentinelXpath.GreenBg} 
-    VerifyElement       ${QentinelXpath.Greenimg}
-    ClickElement        ${QentinelXpath.CreamBG} 
-    VerifyElement       ${QentinelXpath.CreamImg} 
+    ClickElement        ${UIpath.GreenBg} 
+    VerifyElement       ${UIpath.Greenimg}
+    ClickElement        ${UIpath.CreamBG} 
+    VerifyElement       ${UIpath.CreamImg} 
 Check
   [Documentation]     REPLACE_THIS_WITH_DOCUMENTATION_RELEVANT_TO_YOUR_TEST_CASE
     GoTo                https://qentinelqi.github.io/shop/
