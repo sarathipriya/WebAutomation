@@ -32,7 +32,7 @@ LoginDetails
     TypeSecret       ${passwrod}                    ${passwrod} 
 logout
      [Documentation]    User keyword to verify logout                           
-    [Arguments]        ${username}                    ${passwrod}
-     ClickElement     ${CopadoXpath.Profile}
-     ClickElement     ${CopadoXpath.Logout} 
+    [Arguments]        ${profile}                    ${logout}
+     ClickElement     ${profile}
+     ClickElement     ${logout} 
      VerifyText       LOGIN
