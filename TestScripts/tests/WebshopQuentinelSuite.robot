@@ -25,7 +25,7 @@ Loginqentinelqi
     #GoTo                ${QentinelURL}
     #VerifyText          ${QentinelText}      
                
-    LoginQentinel    ${QentinelURL}                        ${QentinelText}
+    LoginQentinel    ${QentinelURL}                        ${Xpath​​​​​Qentinel.ele}
 
 Verify Tshirt Price
     [Documentation]    TESTCASE TO VERIFY THE PRICE OF THE SELECTED TSHIRT IS $9.00
