@@ -10,12 +10,12 @@ Variables         ../resources/locators.robot
 
 *** Keywords ***
 
-Login_Qentinel
-    [Arguments]               ${arg1}    ${arg2}
+LoginQentinel
+    [Arguments]               ${URL}    ${Text}
     [Documentation]    User keyword to login to a URL and verify the text given by user
-    log               ${arg1}
-    GoTo              ${arg1}​​​​​
-    VerifyText        ${arg2}​​​​​
+   # log               ${arg1}
+    GoTo              ${URL}​​​​​
+    VerifyText        ${Text}​​​​​
 
 Verify Page Text
 
