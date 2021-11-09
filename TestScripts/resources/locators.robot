@@ -1,6 +1,7 @@
 *** Settings ***
-
-Variables         ../dataInputs/CongfigUIdata.yaml 
+Documentation     Test suite for Quentinel WebShop.
+Library           QWeb
+#Variables         ../dataInputs/CongfigUIdata.yaml 
 
 *** Variables ***
 
