@@ -16,13 +16,7 @@ ${CopadoPassword}      Priya@2021
 *** Test Cases ***
 Login copado
     [Documentation]    Testcase to verify the login fuctionality of Copado Tool
-     GoTo             http://robotic.copado.com
-     ClickElement     ${CopadoXpath.user}
-     TypeText         ${CopadoXpath.user}                        ${CopadoUsername}
-     ClickElement     ${CopadoXpath.password} 
-     TypeSecret       ${CopadoXpath.password}                    ${CopadoPassword}  
-     ClickElement     ${CopadoXpath.submit}
-     VerifyElement    ${CopadoXpath.Loginverify}
-     ClickElement     ${CopadoXpath.Profile}
-     ClickElement     ${CopadoXpath.Logout} 
-     VerifyText       LOGIN
+    LoginDetails        ${CopadoUsername}              ${CopadoPassword}
+    ClickElement     ${CopadoXpath.submit}
+    VerifyElement    ${CopadoXpath.Loginverify}
+     
