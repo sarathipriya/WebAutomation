@@ -1,11 +1,11 @@
 *** Settings ***
 Documentation     Test suite for Quentinel WebShop.
-Test Setup        Open Browser    about:blank    ${BROWSER}
-Test Teardown     Close All Browsers    # The Settings section is where you define test suite level configuration.    #    Test Setup and Teardown are actions that happen before and after a test case run.
 Library           QWeb
 Library           Screenshot
-Resource          ../resources/locators.robot
 Resource          ../resources/keywords.robot
+Resource          ../resources/locators.robot
+Test Setup        Open Browser    about:blank    ${BROWSER}
+Test Teardown     Close All Browsers    # The Settings section is where you define test suite level configuration.    #    Test Setup and Teardown are actions that happen before and after a test case run.
 
 
 *** Variables ***
