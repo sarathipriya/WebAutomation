@@ -15,7 +15,8 @@ ${CopadoUsername}      sarathipriyaramesh25@gmail.com
 ${CopadoPassword}      Priya@2021
 
 *** Test Cases ***
-Login copado
+Run Tescase with VideoStream
+
     [Documentation]    Testcase to verify the login fuctionality of Copado Tool
     LoginDetails       ${CopadoURL}      ${CopadoXpath.user}     ${CopadoUsername}    ${CopadoXpath.password}    ${CopadoPassword}
     ClickElement     ${CopadoXpath.submit}
