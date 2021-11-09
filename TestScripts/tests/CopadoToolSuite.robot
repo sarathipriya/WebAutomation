@@ -5,8 +5,9 @@ Library                 QWeb
 Library                 Screenshot
 Resource                ../resources/keywords.robot
 Resource                ../resources/locators.robot
-Test Setup             Open Browser    about:blank    ${BROWSER}
-Test Teardown          CloseAllBrowsers
+Suite Setup             Open Browser    about:blank    ${BROWSER}
+Suite Teardown          CloseAllBrowsers
+Test Teardown           logout           ${CopadoXpath.Profile}                     ${CopadoXpath.Logout}
 *** Variables ***
 ${BROWSER}             Chrome
 ${CopadoURL}           http://robotic.copado.com
@@ -19,5 +20,5 @@ Login copado
     LoginDetails       ${CopadoURL}      ${CopadoXpath.user}     ${CopadoUsername}    ${CopadoXpath.password}    ${CopadoPassword}
     ClickElement     ${CopadoXpath.submit}
     VerifyElement    ${CopadoXpath.Loginverify}
-    logout           ${CopadoXpath.Profile}                     ${CopadoXpath.Logout}                    
+                     
      
