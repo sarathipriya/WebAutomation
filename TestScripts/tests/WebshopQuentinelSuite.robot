@@ -10,11 +10,10 @@ Test Teardown     Close All Browsers    # The Settings section is where you defi
 
 *** Variables ***
 # You could also use "Firefox" (without quotes) below.
+&{Xpath​​​​​Qentinel}​​​​​    CartValue=xpath=//span[text()="$9.00"]     ele=xpath=//h2[text()="Find your spirit animal"]        
 ${BROWSER}        Chrome
 ${QentinelURL}            https://qentinelqi.github.io/shop 
-${QentinelText}              Find your spirit animal                      
-
-#&{Xpath​​​​​Qentinel}​​​​​    CartValue=xpath=//span[text()="$9.00"]     ele=xpath=//h2[text()="Find your spirit animal"]        
+${QentinelText}              Find your spirit animal 
 #&{​​​​​QentinelXpath}​​​​​    CartValue=xpath=//span[text()="$9.00"]     ele=xpath=//h2[text()="Find your spirit animal"]                     
 
  
@@ -26,8 +25,8 @@ Loginqentinelqi
     #    Test steps   ​​​​​    
     #GoTo                ${QentinelURL}
     #VerifyText          ${QentinelText}      
-               
-    LoginQentinel    ${QentinelURL}                        ${Xpath​​​​​Qentinel.ele}
+    LoginQentinel     ${QentinelURL}      ${Xpath​​​​​Qentinel.ele}   
+    #LoginQentinel    ${QentinelURL}                        
 
 Verify Tshirt Price
     [Documentation]    TESTCASE TO VERIFY THE PRICE OF THE SELECTED TSHIRT IS $9.00
