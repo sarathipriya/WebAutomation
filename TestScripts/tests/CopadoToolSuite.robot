@@ -19,4 +19,5 @@ Login copado
     LoginDetails       ${CopadoURL}       ${CopadoUsername}              ${CopadoPassword}
     ClickElement     ${CopadoXpath.submit}
     VerifyElement    ${CopadoXpath.Loginverify}
+    logout           ${CopadoXpath.Profile}                     ${CopadoXpath.Logout}                    
      
