@@ -16,7 +16,7 @@ ${CopadoPassword}      Priya@2021
 *** Test Cases ***
 Login copado
     [Documentation]    Testcase to verify the login fuctionality of Copado Tool
-    LoginDetails        ${CopadoUsername}              ${CopadoPassword}
+    LoginDetails       ${CopadoURL}       ${CopadoUsername}              ${CopadoPassword}
     ClickElement     ${CopadoXpath.submit}
     VerifyElement    ${CopadoXpath.Loginverify}
      
