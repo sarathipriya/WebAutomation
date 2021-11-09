@@ -29,6 +29,5 @@ Login copado
      ClickElement     ${CopadoXpath.drop2}
      VerifySelectedOption                 ${CopadoXpath.drop}         All
      VerifySelectedOption                 ${CopadoXpath.drop1}        Yes                
-     #ReturnBrowser
      SwitchWindow                        2  
      Take Screenshot                      name="screenshot"                   
