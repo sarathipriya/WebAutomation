@@ -22,7 +22,7 @@ Login copado
      ClickElement     ${CopadoXpath.password} 
      TypeSecret       ${CopadoXpath.password}                    ${CopadoPassword}  
      ClickElement     ${CopadoXpath.submit}
-     VerifyElement    ${CopadoXpath.verify1}
-     ClickElement     ${CopadoXpath.logoutimg}
-     ClickElement     ${CopadoXpath.logout} 
+     VerifyElement    ${CopadoXpath.Loginverify}
+     ClickElement     ${CopadoXpath.Profile}
+     ClickElement     ${CopadoXpath.Logout} 
      VerifyText       LOGIN
