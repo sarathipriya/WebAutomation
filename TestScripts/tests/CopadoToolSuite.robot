@@ -6,7 +6,7 @@ Library                 Screenshot
 Resource                ../resources/keywords.robot
 Resource                ../resources/locators.robot
 Test Setup             Open Browser    about:blank    ${BROWSER}
-Test Teardown          Close All Browsers
+Test Teardown          CloseAllBrowsers
 *** Variables ***
 ${BROWSER}             Chrome
 ${CopadoURL}           http://robotic.copado.com
