@@ -23,8 +23,9 @@ Loginqentinelqi
     [Documentation]    TESTCASE TO VERIFY THE LOGIN FUNCTIONALITY OF QENTINELWEBSHOP
     #    Test steps   ​​​​​    
     #GoTo                ${QentinelURL}
-    #VerifyText          ${QentinelText}                     
-    Login_Qentinel    ${QentinelURL}                        ${QentinelText}
+    #VerifyText          ${QentinelText}      
+               
+    LoginQentinel    ${QentinelURL}                        ${QentinelText}
 
 Verify Tshirt Price
     [Documentation]    TESTCASE TO VERIFY THE PRICE OF THE SELECTED TSHIRT IS $9.00
