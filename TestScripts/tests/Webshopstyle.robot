@@ -20,7 +20,7 @@ TshirtCSSStyle
     QentinelLOGIN                     ${QentinelqiURL}         ${QentinelqiText}
     Verify Page Text    Bumble the Elephant                    Bumble the Elephant
     ClickElement        ${UIpath.GreenBg} 
-    VerifyElement       ${UIpath.Greenimg}
+    VerifyElement       ${UIpath.GreenImg}
     ClickElement        ${UIpath.CreamBG} 
     VerifyElement       ${UIpath.CreamImg} 
 Check
