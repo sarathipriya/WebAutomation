@@ -22,7 +22,7 @@ Login copado
     VerifyElement    ${CopadoXpath.Loginverify}
     ClickText        Run example tests
      ClickText        Starter suite
-     ${all_options}=                      GetDropDownValues                    ${CopadoXpath.drop}
+     ${all_options}=                      GetDropDownValues                    ${CopadoXpath.selectrecord}
      log                 ${all_options}       
      DropDown         ${CopadoXpath.selectrecord}     All     anchor="1"
      DropDown         ${CopadoXpath.selectstream}    Yes     anchor="1"
