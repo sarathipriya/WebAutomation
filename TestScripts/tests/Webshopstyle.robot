@@ -23,13 +23,3 @@ TshirtCSSStyle
     VerifyElement       ${UIpath.GreenImg}
     ClickElement        ${UIpath.CreamBG} 
     VerifyElement       ${UIpath.CreamImg} 
-Check
-  [Documentation]     REPLACE_THIS_WITH_DOCUMENTATION_RELEVANT_TO_YOUR_TEST_CASE
-    GoTo                https://qentinelqi.github.io/shop/
-    VerifyText          Find your spirit animal
-    ClickText           Bumble the Elephant
-    VerifyText          Bumble the Elephant
-    ClickElement        ${xpathv.user1} 
-    VerifyElement       ${xpathv.user2}
-    ClickElement        ${xpathv.user3} 
-    VerifyElement       ${xpathv.user4} 
